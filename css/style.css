@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+
+section{
+    background: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 50px 100px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.relax{
+    color: #fff;
+}
+
+.relax h1{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.relax p{
+    margin: 15px 0;font-size: 20px;
+}
+
+
+.list{}
+
+.list ul{}
+
+.list ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.list ul li input{}
+
+.button1{}
+
+.button1 a{
+    color: #fff;
+    background: seagreen;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-table;
+    border-radius: 30px;
+}
+
+.right{
+    box-sizing: border-box;
+    background: seagreen;
+    padding: 20px;
+    width: 40%;
+    float: right;
+}
+
+.register{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.register h1{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.register  p{}
+
+.form{}
+.form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form{}
+
+.register-btn{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px !important;
+    background-color: #006900;
+}
+
+.signup{
+    background: seagreen;
+    width: 70%;
+    margin: 0 auto;
+}
